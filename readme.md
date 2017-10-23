@@ -43,7 +43,7 @@ Modifizieren Sie die Datei `file_server.py` so, dass der Server einen eventuell 
 falls die Codierung `gzip` vom Client akzeptiert wird. Falls nicht, wird der Response-Body nicht komprimiert,
 der `Content-Encoding`-Header kann in diesem Fall entfallen oder den Wert `identity` erhalten.
 
-Die `gzip`-Komprimierung können Sie in Python mit dem Modul zlib (s. https://docs.python.org/3/library/zlib.html)
+Die `gzip`-Komprimierung können Sie in Python mit dem Modul gzip (s. https://docs.python.org/3/library/gzip.html)
 vornehmen.
 
 Aufgabe 2: Index (6 Punkte)
